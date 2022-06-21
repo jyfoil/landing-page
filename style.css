@@ -100,6 +100,7 @@ div.hero-left > p {
   border-style: solid;
   border-color: red;
   gap: 48px;
+  padding-bottom: 100px;
 }
 
 .title,
@@ -109,7 +110,7 @@ div.hero-left > p {
 
 .text {
   font-size: 18px;
-  color: #e5e7eb;
+  color: #6a6c72;
   border-style: solid;
   border-color: black;
   margin-top: 10px;
@@ -121,4 +122,42 @@ div.hero-left > p {
   align-items: center;
   border-style: solid;
   border-color: green;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f3732;
+}
+
+.author {
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: blue;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.top {
+  border-style: solid;
+  border-color: green;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom {
+  border-style: solid;
+  border-color: yellow;
+  align-self: flex-end;
+  margin-top: -60px;
 }
