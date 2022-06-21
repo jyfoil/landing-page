@@ -83,7 +83,8 @@ div.hero-left > p {
   margin-top: -30px;
 }
 
-.button {
+.button,
+.button1 {
   background-color: #3882f6;
   width: 130px;
   height: 38px;
@@ -160,4 +161,63 @@ div.hero-left > p {
   border-color: yellow;
   align-self: flex-end;
   margin-top: -60px;
+}
+
+.action-section {
+  border-style: solid;
+  border-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+.action-container {
+  border-style: solid;
+  border-color: purple;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1000px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.button1 {
+  border-style: solid;
+  border-color: #f9faf8;
+}
+
+div.action-text > :nth-child(1) {
+  color: #f9faf8;
+  font-size: 24px;
+  margin-bottom: -15px;
+}
+
+div.action-text > :nth-child(2) {
+  color: #e5e7eb;
+}
+
+.action-text {
+  border-style: solid;
+  border-color: black;
+}
+.button-container {
+  border-style: solid;
+  border-color: orange;
+}
+
+.footer {
+  border-style: solid;
+  border-color: green;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+div.footer > p {
+  color: #e5e7e5;
 }
